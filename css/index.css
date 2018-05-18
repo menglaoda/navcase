@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	margin: 50px 0px;
+}
+div{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	border-bottom: solid 1px #666;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.box1{
+	text-align: center;
+}
+.box1 a{
+	font-size: 20px;
+	padding: 0px 15px;
+	color: black;
+}
+.box1 a:hover{
+	color: red;
+	text-decoration: underline;
+	font-weight: 900;
+}
+.box2 a{
+	float: left;
+	width: 12.5%;
+	height: 40px;
+	border-right: solid 1px white;
+	background: #ebeceb;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+}
+.box2 a:first-child{
+	color: white;
+	background: #003e6d;
+}
+.box2 a:last-child{
+	border: none;
+}
+.box2 a:hover{
+	color: white;
+	background: #003e6d;
+}
+.box3{
+	text-align:center;
+	background: #003e6d;
+	font-size: 0;
+}
+.box3 a{
+	font-size: 18px;
+	padding: 10px 10px;
+	margin: 0px 20px;
+	color: white;
+}
+.box3 a:hover{
+	background: #023964;
+}
+.box4{
+	font-size: 0;
+	text-align:center;
+	padding-top: 0px;
+	margin-top: 100px;
+	height: 40px;
+	background:#e5e5e5 url(../img/1.jpg) repeat-x;
+	background-size: 1px 40px;
+}
+.box4 a{
+    height:50px;
+    line-height: 50px;
+    font-size: 16px;
+    position: relative;
+    top: -6px;
+    color: white;
+    padding: 0px 20px;
+    display: inline-block;
+}
+ .box4 a:hover{
+ 	color: black;
+ 	background: #E5E5E5;
+ 	border-radius:5px;
+ }
+ .box5{
+	font-size: 0;
+	text-align:center;
+	padding-top: 0px;
+	margin-top: 100px;
+	height: 40px;
+	background:#e5e5e5 url(../img/1.jpg) repeat-x;
+	background-size: 1px 40px;
+}
+.box5 a{
+    height:38px;
+    line-height: 36px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+    color: white;
+    padding: 0px 20px;
+    display: inline-block;
+}
+ .box5 a:hover{
+ 	color: black;
+ 	background: #E5E5E5;
+ 	border-top-left-radius:5px;
+ 	border-top-right-radius:5px;
+ }
+ .box66{
+ 	font-size: 0;
+ 	text-align: center;
+ 	background:#262a2d ;
+ }
+ .box6 a{
+ 	font-size: 16px;
+ 	text-align: center;
+ 	line-height: 62px;
+ 	box-sizing: border-box;
+ 	width: 120px;
+ 	height: 62px;
+ 	padding: 21px 30px;
+    color: white;
+    margin-right: 2px;
+    background: url(../img/111.png) repeat-x ;
+    
+ }
+ .box6 a:hover{
+ 	background: url(../img/222.png) repeat-x;
+ 	color: #b0d041;
+ }
+ .box7{
+ 	background: #eeeeee;
+ }
+ .box77{
+ 	width: 1200px;
+ 	height: 43px;
+ 	margin: 0 auto;
+ 	background: url(../img/nav1.png) no-repeat;
+ 	background-size: 100%;
+ 	border: none;
+ 	padding: 0;
+ 	margin-top: -110px;
+ 	font-size: 0;
+ 	text-align: center;
+ }
+ .box77 a{
+ 	font-size: 18px;
+ 	display: inline-block;
+ 	height: 40px;
+ 	padding: 0 20px;
+ 	line-height: 40px;
+ 	color: white;
+ }
+ .box77 a:hover{
+ 	background: #3dabe8;
+ }
+.pp{
+	width: 960px;
+	background: white;
+	height: 150px;
+	margin: 0 auto;
+}
+ .box8{
+ 	background: #eeeeee;
+ }
+ .box88{
+ 	width: 1200px;
+ 	height: 80px;
+ 	margin: 0 auto;
+ 	background: url(../img/nav3.png) no-repeat;
+ 	background-size: 1200px 80px;
+ 	border: none;
+ 	padding: 0;
+ 	margin-top: -110px;
+ 	font-size: 0;
+ 	text-align: center;
+ }
+ .box8 .pp{
+	width: 1187px;
+	background: white;
+	height: 150px;
+	margin: 0 auto;
+}
+ .box88 a{
+ 	font-size: 16px;
+ 	display: inline-block;
+ 	height: 60px;
+ 	padding: 0 20px;
+ 	line-height: 56px;
+ 	position: relative;
+ 	top: 17px;
+ 	color: white;
+ }
+  .box88 a:first-child{
+  	background:url(../img/nav2.png) no-repeat ;
+ 	background-size: 100% 60px;
+  }
+ .box88 a:hover{
+ 	background:url(../img/nav2.png) no-repeat ;
+ 	background-size: 100% 60px;
+ }
+  .box9{
+  	background: #a0a1a5;
+  	width: 1200px;
+ 	height: 40px;	
+ 	padding: 0;
+ 	border: none;
+ 	margin: 0 auto;
+ 	border-radius: 20px;
+  }
+ .box99{
+ 	width: 1200px;
+ 	height: 40px;	
+ 	padding: 0;
+ 	border: none;
+ 	margin: 0 auto;
+ 	border-radius: 20px;
+ 	text-align: center;
+ 	font-size: 0;
+ 	margin-top: 100px;
+ }
+ .box99 a{
+ 	font-size: 16px;
+ 	background: #dadbdf;
+ 	display: inline-block;
+ 	height: 40px;
+ 	padding: 0 20px;
+ 	line-height: 38px;
+ 	color: #666;
+ 	margin-left: 1px;
+ }
+ .box99 a:hover{
+ 	height: 50px;
+ 	background: url(../img/nav4.png) no-repeat;
+ 	background-size: 100% 50px;
+ }
+ .box99 a:first-child{
+ 	height: 50px;
+ 	background: url(../img/nav4.png) no-repeat;
+ 	background-size: 100% 50px;
+ }
