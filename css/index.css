@@ -50,6 +50,22 @@ a{
 	color: white;
 	background: #003e6d;
 }
+.box22{
+	text-align: center;	
+	font-size: 0;
+}
+.box222{
+	background: aqua;
+	padding: 20px;
+}
+.box22 a{
+	padding: 10px 20px;
+	font-size: 16px;
+}
+.box22 a:hover{
+	background: red;
+	
+}
 .box3{
 	text-align:center;
 	background: #003e6d;
