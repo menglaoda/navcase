@@ -272,6 +272,7 @@ a{
  .obox{
  	width: 100%;
  	background: pink;
+ 	margin-top: 50px;
  }
  .box10{
  	position: relative;
