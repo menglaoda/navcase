@@ -269,3 +269,32 @@ a{
  	background: url(../img/nav4.png) no-repeat;
  	background-size: 100% 50px;
  }
+ .obox{
+ 	width: 100%;
+ 	background: pink;
+ }
+ .box10{
+ 	position: relative;
+ 	margin: 0 auto;
+ 	width: 1210px;
+ }
+ .box10 a{
+	float: left;
+	width: 120px;
+	height: 40px;
+	border-right: solid 1px white;
+	background: #ebeceb;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+}
+.box10 div{
+	position: absolute;
+	top: 86px;
+	width: 120px;
+	height: 4px;
+	padding: 0;
+	margin: 0;
+	background: red;
+	border-radius: 4px;
+}
