@@ -299,3 +299,105 @@ a{
 	background: red;
 	border-radius: 4px;
 }
+.list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	margin: 50px 0px;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	padding: 50px 0px 350px 0px;
+	background: black;
+}
+.list li{
+	width: 370px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #c0392b;
+	position: relative;
+}
+.list li:nth-child(2){
+	background: #C8462B;
+}
+.list li:nth-child(3){
+	background: #d3592b;
+}
+.list a{
+	color: white;
+}
+.list li:hover .nav{
+	display: block;
+}
+.nav{
+	padding: 0;
+	border: 0;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	display: none;
+	width: 100%;
+	transform-style: preserve-3d;
+	transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
+}
+.nav a{
+	background: #f5f5f5;
+	height: 60px;
+	color: black;
+	display: block;
+	margin-top: -5px;
+	transform: perspective(1200px) rotateX(20deg) rotateY(0deg);
+}
+.nav a:nth-child(2n){
+	background: #eeeeee;
+	margin-top: -5px;
+	transform: perspective(1200px) rotateX(-20deg) rotateY(0deg);
+}
+.list2{
+	list-style: none;
+	text-align: center;
+	padding: 100px 0px 100px;
+	font-size: 0;
+}
+.dobox{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	display: inline-block;
+	transform-style: preserve-3d;/*子元素将保留其 3D 位置*/
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+	position: relative;
+	transition: all 1s;
+	padding: 0;
+	border: 0;
+	margin: 0px 4px;
+	font-size: 16px;
+}
+.dobox:hover{
+	transform: perspective(1000px) rotateX(-90deg) rotateY(0deg);
+}
+.dbox{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background: green;
+	transform: rotateX(90deg) translateZ(25px);
+	backface-visibility: hidden;
+	padding: 0;
+	border: 0;
+}
+.dbox1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background: gray;
+	transform: rotateX(0deg) translateZ(25px);
+	padding: 0;
+	border: 0;
+}
